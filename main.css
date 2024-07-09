@@ -26,3 +26,65 @@ body{
 .box{
     height: 100vh;
 }
+
+.box1{background-color: #70856e;}
+
+.box2{background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,194,128,1) 33%, rgba(141,152,1,1) 61%, rgba(0,212,255,1) 100%);}
+
+.box3{display:flex;
+justify-content: center;
+align-items: center;
+background: rgb(61,66,130);
+background: linear-gradient(212deg, rgba(61,66,130,1) 45%, rgba(219,255,0,1) 50%);}
+
+.box3 p{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(66, 142, 197, 0.617);
+    display:flex;
+justify-content: center;
+align-items: center;
+background: rgba(255, 255, 255, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(255, 255, 255, 0.87);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(255, 255, 255, 0.87);
+
+    
+}
+
+.box4{
+    background-image: url("img/ava7patterns_pattern_1841.png");
+    background-repeat: repeat-y;
+}
+
+.box5{
+    background-image: url("img/Screenshot_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.box5 p{ width: 50%;
+height: 50%;
+background-color: #72779969;
+padding: 15px;}
+
+.box6 {
+    background-image: url("img/Screenshot_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
